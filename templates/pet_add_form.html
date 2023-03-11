@@ -1,0 +1,12 @@
+{%extends 'homepage.html'%}
+
+{%block title%}<h2>Add a new Pet</h2>{%endblock%}
+
+{%block content%}
+
+<form method="POST">
+    {% include "_form.html" %}
+    <button class="btn btn-primary" type="submit">Add</button>
+</form>
+
+{%endblock%}
